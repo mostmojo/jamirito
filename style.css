@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900');
+
+@media (max-width: 771px){
+	.landing-page-banner {
+		display: flex;
+		justify-content: space-between;	
+	}
+	.landing-page-main {
+		margin: 100px;
+	}
+}
+
+.navbar {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 94px;
+}
+.navbar .navbar-brand img {
+  width: 40px;
+}
+.nav-button-home {
+    text-decoration: none;
+}
+.nav-link {
+	color: #a8d8ea;
+}
+.nav-link:hover {
+	color: black;
+}
+btn-blue {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  background: #a8d8ea;
+  transition: background 0.3s ease;
+  font-family: 'Montserrat', sans-serif;
+}
+a.btn-blue:hover {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  background: #8db5c4;
+  transition: background 0.3s ease;
+  font-family: 'Montserrat', sans-serif;
+}
+li > a {
+	text-decoration: none;
+	color: #a8d8ea;
+	font-family: 'Montserrat', sans-serif;
+}
+li > a:hover {
+	text-decoration: none;
+	color:#8db5c4;
+	font-family: 'Montserrat', sans-serif;
+}
+a.btn-blue {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  background: #a8d8ea;
+  transition: background 0.3s ease;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+li {
+	font-family: 'Montserrat', sans-serif;
+}
+p {
+	color: #969696;
+	font-family: 'Montserrat', sans-serif;
+}
+.title {
+	color: #a8d8ea;
+	font-weight: 700;
+}
+.columns {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.headings {
+	align-items: center;
+	max-width: 80%;
+	margin-top: 100px;
+}
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+h1 {
+	'font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+.bolded {
+	font-weight: 700;
+}
+
+.img-banner {
+	height: 400px;
+	width: 400px;
+}
+
+a {
+	font-weight: bold;
+}
