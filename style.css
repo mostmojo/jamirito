@@ -149,3 +149,10 @@ a {
 .footer .fa-heart {
   color: #8DB5C4;
 }
+
+@media (max-width: 771px){
+      .footer {
+        display: block;
+        text-align: center;
+      }
+}
